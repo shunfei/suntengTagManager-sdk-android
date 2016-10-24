@@ -1,0 +1,97 @@
+{
+  "owner":1,
+  "projectId":280,
+  "projectName":"移动端 - 测试项目",
+  "containerId":10487,
+  "containerType":2,
+  "versionId":1,
+  "versionName":"Test-V1",
+  "tags":[
+    {
+      "id":1,
+      "name":"functionCallMacroTag",
+      "type":"FUNC_CALL",
+      "liveOnly":false,
+      "funcCall":{
+        "name":"{{functionCallMacro}}",
+        "parameters":[
+          {
+            "key":"高度",
+            "value":"10"
+          }
+        ]
+      },
+      "firingTriggerIds":[
+        "1"
+      ],
+      "blockingTriggerIds":[
+
+      ]
+    }
+  ],
+  "triggerMap":{
+    "1":{
+      "id":"1",
+      "name":"CalculateEvent",
+      "type":"CUSTOM_EVENT",
+      "filters":[
+        {
+          "macroName":"{{CustomEvent}}",
+          "condition":"EQUALS",
+          "value":"hello"
+        }
+      ]
+    }
+  },
+  "macroMap":{
+    "{{CustomEvent}}":{
+      "name":"{{CustomEvent}}",
+      "type":"CUSTOM_EVENT"
+    },
+    "{{SDK 版本号}}":{
+      "name":"{{SDK 版本号}}",
+      "type":"SDK_VERSION"
+    },
+    "{{functionCallMacro}}":{
+      "name":"{{functionCallMacro}}",
+      "type":"FUNC_CALL",
+      "funcCall":{
+        "name":"funcName",
+        "parameters":[
+          {
+            "key":"height",
+            "value":"10"
+          }
+        ]
+      }
+    },
+    "{{发布代码版本 ID}}":{
+      "name":"{{发布代码版本 ID}}",
+      "type":"VERSION_ID"
+    },
+    "{{容器 ID}}":{
+      "name":"{{容器 ID}}",
+      "type":"CONTAINER_ID"
+    },
+    "{{平台}}":{
+      "name":"{{平台}}",
+      "type":"DEVICE_PLATFORM"
+    },
+    "{{应用 ID}}":{
+      "name":"{{应用 ID}}",
+      "type":"APP_ID"
+    },
+    "{{应用名称}}":{
+      "name":"{{应用名称}}",
+      "type":"APP_NAME"
+    },
+    "{{应用版本号}}":{
+      "name":"{{应用版本号}}",
+      "type":"APP_VERSION"
+    },
+    "{{设备名称}}":{
+      "name":"{{设备名称}}",
+      "type":"DEVICE_NAME"
+    }
+  }
+}
