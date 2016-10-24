@@ -1,6 +1,6 @@
 # TagManager SDK for Andoid 使用说明
 
-> SDK Version :1.0  
+> SDK Version :0.1.0  
 > 2016-10
 
 ## 1、SDK使用指南
